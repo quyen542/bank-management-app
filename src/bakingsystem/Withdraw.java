@@ -299,7 +299,7 @@ public class Withdraw extends javax.swing.JInternalFrame {
         try{
             String a1=AccountBal.getText();
             String a2=Amount.getText();
-            int sum=Integer.parseInt(a1)-Integer.parseInt(a2);
+            Double sum=Double.parseDouble(a1)-Double.parseDouble(a2);
             String sum1=String.valueOf(sum);
             Total.setText(sum1);
         }catch(Exception e){
