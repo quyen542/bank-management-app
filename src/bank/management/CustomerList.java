@@ -5,12 +5,13 @@
  */
 package bank.management;
 
+import net.proteanit.sql.DbUtils;
+
+import javax.swing.*;
+import javax.swing.plaf.basic.BasicInternalFrameUI;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import javax.swing.JOptionPane;
-import javax.swing.plaf.basic.BasicInternalFrameUI;
-import net.proteanit.sql.DbUtils;
 
 
 /**
