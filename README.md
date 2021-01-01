@@ -17,6 +17,8 @@ The application is also capable of showing various messages which include: -
 3)	Also, when you try to change the pin for your particular account and your pin does not match in your “new pin” and “confirm new pin” field, an error message pops up displaying “Pin does not match”.
 4)	 Also, there are different message pop ups when you’re successful in doing various operations like creating new account, editing profile, depositing money, transferring money, withdrawing money and changing pin.
 
+### Please add all jar function in JarFunction folder to your IDE to run app perfectly. 
+
 # Screenshot 
 
 ![1](https://user-images.githubusercontent.com/63244142/103435866-96b89400-4c47-11eb-8ba0-c9d81e487b37.png)
