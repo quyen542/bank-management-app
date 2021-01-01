@@ -8,6 +8,8 @@ package bank.management;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Random;
@@ -628,13 +630,16 @@ public class SignUp extends javax.swing.JFrame {
     }//GEN-LAST:event_SignUpButtonActionPerformed
 
     public void Bal(){
-        String sql="insert into Balances(username,fullname,balance,Acc_Num)values (?,?,?,?)";
+        String sql="insert into Balances(username,fullname,balance,Acc_Num,UpdateD)values (?,?,?,?,?)";
         try{
             pst=conn.prepareStatement(sql);
             pst.setString(1,username.getText());
             pst.setString(2,FullName.getText());
             pst.setString(3,"0"); 
             pst.setString(4,jTextField1.getText());
+            DateTimeFormatter dateFormatter4 = DateTimeFormatter
+                .ofPattern("dd-LL-yyyy");
+            pst.setString(5,dateFormatter4.format(LocalDate.now()));
             pst.execute();
             pst.close();
         }catch(Exception e){
