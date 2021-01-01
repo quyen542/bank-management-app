@@ -417,7 +417,7 @@ public class Transfer extends javax.swing.JInternalFrame {
         try{
             String a1=AccountBal.getText();
             String a2=TransferAmount1.getText();
-            int sum=Integer.parseInt(a1)-Integer.parseInt(a2);
+             Double sum=Double.parseDouble(a1)-Double.parseDouble(a2);
             String sum1=String.valueOf(sum);
             TransferAmount2.setText(sum1);
         }catch(Exception e){
@@ -430,7 +430,7 @@ public class Transfer extends javax.swing.JInternalFrame {
         try{
             String a1=TransferAmount1.getText();
             String a2=Credit1.getText();
-            int sum=Integer.parseInt(a1)+Integer.parseInt(a2);
+            Double sum=Double.parseDouble(a1)+Double.parseDouble(a2);
             String sum1=String.valueOf(sum);
             Credit2.setText(sum1);
         }catch(Exception e){
