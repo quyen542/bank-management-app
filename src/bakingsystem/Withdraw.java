@@ -300,8 +300,15 @@ public class Withdraw extends javax.swing.JInternalFrame {
             String a1=AccountBal.getText();
             String a2=Amount.getText();
             Double sum=Double.parseDouble(a1)-Double.parseDouble(a2);
+            if(sum<0)
+            {
+                JOptionPane.showMessageDialog(null, "You don't have enough money to withdraw");
+            }
+            else
+            {
             String sum1=String.valueOf(sum);
             Total.setText(sum1);
+            }
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
         }
