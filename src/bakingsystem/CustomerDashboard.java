@@ -552,9 +552,9 @@ public class CustomerDashboard extends javax.swing.JFrame {
 
         Desktop.setPreferredSize(new java.awt.Dimension(764, 529));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/logo.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/logo-removebg-preview.png"))); // NOI18N
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bank.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bank-removebg-preview.png"))); // NOI18N
 
         jLabel14.setFont(new java.awt.Font("Times New Roman", 0, 28)); // NOI18N
         jLabel14.setText("WELCOME TO OUR BANKING MANAGEMENT SYSTEM");
@@ -576,7 +576,7 @@ public class CustomerDashboard extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(DesktopLayout.createSequentialGroup()
-                        .addGap(0, 26, Short.MAX_VALUE)
+                        .addGap(0, 28, Short.MAX_VALUE)
                         .addComponent(jLabel14))
                     .addGroup(DesktopLayout.createSequentialGroup()
                         .addComponent(jLabel12)
@@ -620,7 +620,7 @@ public class CustomerDashboard extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(20, 20, 20)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Desktop, javax.swing.GroupLayout.DEFAULT_SIZE, 591, Short.MAX_VALUE)
+                    .addComponent(Desktop, javax.swing.GroupLayout.DEFAULT_SIZE, 633, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
