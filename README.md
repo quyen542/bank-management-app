@@ -1,5 +1,5 @@
 # IU Bank App (Banking-Management-System)
-IU Bank (Banking Management System) is a mini project application coded in Java programming language built using Netbean. The application can be used for normal banking purposes and is capable of performing the following functions: -
+IU Bank (Banking Management System) is a mini project application coded in Java programming language built using Netbean. The application can be used for normal banking purposes and is capable of performing the following functions: Link report: [Report](https://mphcmiuedu-my.sharepoint.com/:w:/g/personal/ititiu19045_student_hcmiu_edu_vn/EXNhbLDHlapEqUv-eBbrUH0B-MncWeHajg_jM7V4DT308A?e=5yznfh)
 1)	Create an account
 2)	View Profile
 3)	Edit Profile
