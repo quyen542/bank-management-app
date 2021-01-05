@@ -251,6 +251,7 @@ public class Withdraw extends javax.swing.JInternalFrame {
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
         }
+        AccountBal.setText(Total.getText());
         Amount.setText("");
         Total.setText("");
 
