@@ -26,6 +26,7 @@ public class Loading extends javax.swing.JFrame implements Runnable{
     /**
      * Creates new form Loading
      */
+    
     public Loading() {
         super("Loading");
         initComponents();
