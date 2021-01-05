@@ -259,6 +259,7 @@ public class Deposite extends javax.swing.JInternalFrame {
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
         }
+        AvailableBal.setText(DepositeAmount2.getText());
         DepositeAmount1.setText("");
         DepositeAmount2.setText("");
     }//GEN-LAST:event_DepositeActionPerformed
