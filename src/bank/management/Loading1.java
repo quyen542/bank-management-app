@@ -117,7 +117,6 @@ public class Loading1 extends javax.swing.JFrame implements Runnable{
      * @param args the command line arguments
      */
     
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
