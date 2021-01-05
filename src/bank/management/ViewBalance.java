@@ -335,6 +335,7 @@ public class ViewBalance extends javax.swing.JInternalFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JTextField AccountID;
     private javax.swing.JTextField AccountType;
     private javax.swing.JTextField Balance;
