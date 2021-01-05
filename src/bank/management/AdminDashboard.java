@@ -20,6 +20,7 @@ public class AdminDashboard extends javax.swing.JFrame {
      * Creates new form AdminDashboard
      */
     public AdminDashboard() {
+        super("Home");
         initComponents();
         DeafaultColor = new Color(212,242,234);
         ClickColor = new Color(233,249,242);
