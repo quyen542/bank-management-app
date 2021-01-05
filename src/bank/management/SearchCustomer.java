@@ -418,7 +418,6 @@ public class SearchCustomer extends javax.swing.JInternalFrame {
         AccountType.setText("");
     }//GEN-LAST:event_jButton1ActionPerformed
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField AccountNo;
     private javax.swing.JTextField AccountType;
