@@ -363,6 +363,7 @@ public class Transfer extends javax.swing.JInternalFrame {
         TransferD();
         TransferC();
         Transaction();
+        AccountBal.setText(TransferAmount2.getText());
         TransferAmount1.setText("");
         TransferAmount2.setText("");
         Credit1.setText("");
